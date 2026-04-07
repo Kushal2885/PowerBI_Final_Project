@@ -1,0 +1,47 @@
+Overview
+This project is a Power BI dashboard created to analyze sales data. It shows important insights like revenue, profit, return rate, customer performance, and 
+product performance.
+
+Data Modeling
+1.Used Star Schema
+2.Connected fact and dimension tables using keys
+3.Created Date table for time analysis
+
+DAX & Calculations
+
+Created measures like:
+1.Total Revenue
+2.Total Profit
+3.Return Rate %
+4.Total Orders
+
+Used functions:
+CALCULATE, SUMX, COUNTX, SWITCH, RELATED
+
+1. Dashboard
+  -KPI cards (Revenue, Profit, Return Rate)
+  -Sales trend (line chart)
+  -Sales by region (donut chart)
+  -Top customers (bar chart)
+  -Product table with data bars
+
+2. Map Page
+  -Shows sales distribution by location
+  -Region-based analysis
+
+3. Customer Details
+  -Top customers
+  -Revenue vs target (gauge chart)
+  -Sales by region
+  -Customer trend
+
+4. Product Details
+  -Revenue by category
+  -Product comparison
+  -Profit analysis
+
+1.Slicers (Region, Category, Date)
+2.Top N filter
+3.Drillthrough
+4.Conditional formatting
+5.Navigation buttons
